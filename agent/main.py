@@ -1,6 +1,6 @@
 import requests
 
-MCP_URL = "http://127.0.0.1:8000/weather"
+MCP_URL = "https://weather-agent-447034330708.asia-south1.run.app/weather"
 
 def weather_agent(query):
     if "weather" in query.lower():

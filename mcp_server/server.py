@@ -15,3 +15,7 @@ def get_weather(city: str):
         "temperature": res["main"]["temp"],
         "description": res["weather"][0]["description"]
     }
+
+@app.get("/")
+def home():
+    return {"message": "Weather MCP Agent is running 🚀"}
